@@ -1,0 +1,753 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+body {
+  overflow-x: hidden;
+}
+.londrina-outline-regular {
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.oswald-uniquifier{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.background{
+    position: fixed;
+    z-index: -1;
+}
+
+.Comeco{
+    width: 60%;
+    height: 100vh;
+    margin: 0 20% 0 20%;
+}
+.bug{
+   width: 100%;
+    height: auto;
+}
+.Text-Comeco{
+    font-family: Londrina Outline;
+    color: aliceblue;
+    font-size: 86pt;
+    border-radius: 10px;
+    font-weight: 600; 
+    margin: 300px 0px 0 370px;
+    display: inline-block;
+}
+.Text-2{
+    font-family: Londrina Outline;
+    color: aliceblue;
+    font-size: 26pt;
+    border-radius: 10px;
+    font-weight: 500; 
+    margin: 10px 0px 0 370px;
+
+}
+.lista-icones{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    list-style: none;
+ 
+    margin: 50px 0px 0 490px;  
+}
+.lista-icones li i{
+   color: white;
+   font-size: 20pt;
+}
+.lista-icones li i:hover{
+    transform: scale(1.3);
+    transition: all 300ms;
+}
+.Botao-baixo{
+    color: aliceblue;
+    font-size: 30pt;
+    margin: 200px 50% 200px 50%;
+}
+.Botao-baixo a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.Botao-baixo:hover{
+   transform: scale(1.3);
+ transition: all 300ms;
+}
+.div-projetos{
+    width: 100%;
+    height: 120vh;
+    background: #000000;
+background: linear-gradient(0deg, rgba(0, 0, 0, 1) 64%, rgba(0, 0, 0, 0.79) 87%, rgba(0, 0, 0, 0) 100%);
+}
+.hr-1{
+    margin-top: 190px;
+    border: 0;
+}
+.Conteudo-projetos{
+     display: inline-block;
+}
+.Text-Projetos-1{
+    color: aliceblue;
+    font-size: 80pt;
+    font-family: Oswald;
+    margin: 00px 0 0px 803px;  
+
+}
+.Text-Projetos-2{
+    color: aliceblue;
+    font-size: 80pt;
+    font-family: Oswald;
+    margin: 250px 0 0px 803px;  
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.div-Habilidades{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+hr{
+    border: 0;
+}
+.Botao-baixo-Projetos{
+     color: aliceblue;
+    font-size: 30pt;
+    margin: 320px 50% 200px 50%;
+}
+.Botao-baixo-Projetos a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.Botao-baixo-Projetos:hover{
+   transform: scale(1.3);
+ transition: all 300ms;
+}
+.Text-Habilidade-1{
+    color: aliceblue;
+    font-size: 80pt;
+    font-family: Londrina Outline;
+    margin: 00px 0 0px 743px;  
+     font-weight: 600; 
+}
+.quadro{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+.css{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 3px;
+    border-color: aliceblue;
+    border-style:solid;
+    margin: 100px 0 0 100px;
+}
+.logo{
+    width: 100%;
+}
+.logo i{
+    font-size: 40pt;
+    color: white;
+    margin: 10px 0 0 100px;
+}
+.name{
+    font-size: 20pt;
+    color: white;
+    font-family: Oswald;
+    margin: 10px 0 0 100px;
+}
+.texto-quadrado{
+    font-size: 20pt;
+    color: white;
+    font-family: Oswald;
+    margin: 20px 30px 0 30px;
+}
+.css:nth-child(3) .name{
+   margin: 10px 0 0 70px;
+}
+.Botao-baixo-Habilidades{
+     color: aliceblue;
+    font-size: 30pt;
+    margin: 260px 50% 200px 50%;
+}
+.Botao-baixo-Habilidades a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.Botao-baixo-Habilidades:hover{
+   transform: scale(1.3);
+ transition: all 300ms;
+}
+.div-Biografia{
+    width: 100%;
+    height: 120vh;
+    background: #000000;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 73%, rgba(0, 0, 0, 0.63) 88%, rgba(0, 0, 0, 0.48) 93%, rgba(0, 0, 0, 0) 100%);
+display: inline-block;
+
+}
+.quadrado{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    margin-top: 0px;
+}
+.foto{
+    margin-left: 200px;
+}
+.foto img{
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+    border-radius: 290px;   
+}
+.text-biografia{
+    width: 50%;
+
+}
+.text-biografia-title{
+   color: aliceblue;
+    font-size: 80pt;
+    font-family: Oswald;
+    margin: 200px 0 0px 703px;  
+}
+.text-biografia p{
+    font-size: 20pt ;
+    font-family: oswald;
+    color: aliceblue;
+    margin-top: 280px; 
+}
+.teste{
+    color: aliceblue;
+}
+.text-biografia  i{
+    color: aliceblue;
+    font-size: 30pt;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.text-biografia  i:hover{
+    transform: scale(1.3);
+ transition: all 300ms; 
+}
+
+@media (max-width: 992px) {
+  .Comeco { 
+    width: 90%; 
+    margin: 0 5%; 
+}
+  .Text-Comeco{ 
+    font-size: 11vw; 
+    margin: 200px 0 0 200px; 
+    text-align: center; 
+}
+  .Text-2 { 
+    font-size: 4.5vw; 
+    margin: 10px 0 0 0; 
+    text-align: center; 
+}
+
+  .lista-icones{ 
+    justify-content: center; 
+    margin: 40px 0 0 0; 
+}
+  .hr-1{
+    margin-top: 120px; 
+}
+
+.Text-Projetos-1,.Text-Projetos-2 {
+   font-size: 12vw;
+    margin-left: 300px; 
+    text-align: center; 
+}
+ .Botao-baixo-Projetos{
+     color: aliceblue;
+    font-size: 30pt;
+    margin-top: 120px;
+}
+
+  .Text-Habilidade-1{
+    font-size: 13vw; 
+    margin: 0; 
+    text-align: center; 
+}
+  .quadro{ 
+    flex-wrap: wrap; 
+    width: 100%;
+    height: 1000px; 
+    margin: 0px 0 0 0; 
+}
+  .css{
+    width: 200px; 
+    margin: 40px 0 0 2%; 
+}
+.quadrado{
+    width: 100%;
+    height: 220px;
+    display: block;
+    margin-top: 0px;
+}
+.foto img{
+    width: 500px;
+    height: 500px;
+    margin: 100px 45% 0 25%;
+    border-radius: 290px;   
+    align-items: center;
+    
+}
+.foto{  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.div-Biografia{
+    width: 100%;
+    height: 180vh;
+    background: #000000;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 73%, rgba(0, 0, 0, 0.63) 88%, rgba(0, 0, 0, 0.48) 93%, rgba(0, 0, 0, 0) 100%);
+display: inline-block;
+}
+.text-biografia p{
+    font-size: 20pt ;
+    font-family: oswald;
+    color: aliceblue;
+    margin-top: 80px;
+    margin-left: 20px; 
+}
+.text-biografia-title {
+    font-size: 62pt;
+    margin: 40px 0 0 0;
+    text-align: center;
+}
+.text-biografia{
+    width: 100%;
+}
+.text-biografia  i{
+    color: aliceblue;
+    font-size: 30pt;
+    margin-top: 200px;
+    margin-left: 465px;
+}
+.div-Habilidades{
+    width: 100%;
+    height: 120vh;
+    word-wrap: break-word;
+}
+}
+@media (max-width: 1900px) {
+  .Text-Comeco {
+    font-size: 70pt;
+    margin: 250px 0 0 390px;
+  }
+
+  .Text-2 {
+    font-size: 22pt;
+    margin: 10px 0 0 390px;
+  }
+
+  .lista-icones {
+    margin: 40px 0 0 500px;
+    gap: 40px;
+  }
+
+  .lista-icones li i {
+    font-size: 18pt;
+  }
+
+  .Botao-baixo {
+    font-size: 28pt;
+    margin: 180px 560px auto;
+  }
+
+  .Text-Projetos-1,.Text-Projetos-2 {
+    font-size: 60pt;
+    margin-left: 820px;
+  }
+
+  .Text-Habilidade-1 {
+    font-size: 60pt;
+    margin-left: 800px;
+  }
+
+  .quadro {
+    margin-left: 380px;
+    width: 90%;
+  }
+
+  .css {
+    width: 200px;
+    height: 200px;
+    margin: 80px 0 0 60px;
+  }
+
+  .logo i {
+    font-size: 36pt;
+    margin-left: 60px;
+  }
+
+  .name {
+    font-size: 18pt;
+    margin-left: 60px;
+  }
+
+  .texto-quadrado {
+    font-size: 18pt;
+    margin: 20px;
+  }
+
+  .Botao-baixo-Habilidades{
+     color: aliceblue;
+    font-size: 30pt;
+    margin: 260px 50% 200px 50%;
+}
+
+  .foto img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .text-biografia-title {
+    font-size: 60pt;
+    margin-left: 750px;
+  }
+
+  .text-biografia p {
+    font-size: 18pt;
+    margin-top: 220px;
+  }
+
+  .text-biografia i {
+    font-size: 26pt;
+    margin: 900px 0 0 140px;
+  }
+}
+@media (max-width: 1600px) {
+  .Text-Comeco {
+    font-size: 70pt;
+    margin: 250px 0 0 280px;
+  }
+
+  .Text-2 {
+    font-size: 22pt;
+    margin: 10px 0 0 280px;
+  }
+
+  .lista-icones {
+    margin: 40px 0 0 380px;
+    gap: 40px;
+  }
+
+  .lista-icones li i {
+    font-size: 18pt;
+  }
+
+  .Botao-baixo {
+    font-size: 28pt;
+    margin: 180px 460px auto;
+  }
+
+  .Text-Projetos-1,.Text-Projetos-2 {
+    font-size: 60pt;
+    margin-left: 620px;
+  }
+
+  .Text-Habilidade-1 {
+    font-size: 60pt;
+    margin-left: 550px;
+  }
+
+  .quadro {
+    margin-left: 150px;
+    width: 90%;
+  }
+
+  .css {
+    width: 200px;
+    height: 200px;
+    margin: 80px 0 0 60px;
+  }
+
+  .logo i {
+    font-size: 36pt;
+    margin-left: 60px;
+  }
+
+  .name {
+    font-size: 18pt;
+    margin-left: 60px;
+  }
+
+  .texto-quadrado {
+    font-size: 18pt;
+    margin: 20px;
+  }
+
+  .Botao-baixo-Habilidades{
+     color: aliceblue;
+    font-size: 30pt;
+    margin: 160px 50% 200px 50%;
+}
+
+  .foto img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .text-biografia-title {
+    font-size: 60pt;
+    margin-left: 600px;
+  }
+
+  .text-biografia p {
+    font-size: 18pt;
+    margin-top: 220px;
+  }
+
+  .text-biografia i {
+    font-size: 26pt;
+  }
+}
+
+@media (max-width: 1400px) {
+  .Text-Comeco {
+    font-size: 70pt;
+    margin: 150px 0 0 230px;
+  }
+
+  .Text-2 {
+    font-size: 22pt;
+    margin: 10px 0 0 230px;
+  }
+
+  .lista-icones {
+    margin: 40px 0 0 350px;
+    gap: 40px;
+  }
+
+  .lista-icones li i {
+    font-size: 18pt;
+  }
+
+  .Botao-baixo {
+    font-size: 28pt;
+    margin: 110px 400px auto;
+  }
+
+  .Text-Projetos-1,.Text-Projetos-2 {
+    font-size: 60pt;
+    margin-left: 580px;
+  }
+  .div-projetos{
+    height: 140vh ;
+}
+.Botao-baixo-Projetos {
+    font-size: 28pt;
+    margin: 110px 680px auto;
+  }
+
+  .Text-Habilidade-1 {
+    font-size: 60pt;
+    margin-left: 540px;
+  }
+
+  .quadro {
+    margin-left: 120px;
+    width: 90%;
+  }
+
+  .css {
+    width: 200px;
+    height: 200px;
+    margin: 80px 0 0 60px;
+  }
+
+  .logo i {
+    font-size: 36pt;
+    margin-left: 60px;
+  }
+
+  .name {
+    font-size: 18pt;
+    margin-left: 60px;
+  }
+
+  .texto-quadrado {
+    font-size: 18pt;
+    margin: 20px;
+  }
+
+  .Botao-baixo-Habilidades{
+     color: aliceblue;
+    font-size: 30pt;
+    margin: 0px 0px 0px 675px;
+}
+.Botao-baixo-Habilidades:hover{
+    transform: scale(1.0);
+}
+
+  .foto img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .text-biografia-title {
+    font-size: 60pt;
+    margin-left: 480px;
+  }
+
+  .text-biografia p {
+    font-size: 18pt;
+    margin-top: 220px;
+  }
+
+  .text-biografia i {
+    font-size: 26pt;
+    margin: 50px 0 0 0;
+  }
+.div-Biografia{
+    height: 130vh;
+}
+
+}
+@media (max-width: 768px) {
+  .Text-Comeco{
+    font-size: 14vw; 
+    margin-left:16%;
+}
+  .Text-2{ 
+    font-size: 5.5vw; 
+}
+  .Botao-baixo,.Botao-baixo-Projetos,.Botao-baixo-Habilidades {
+    font-size: 8vw;
+    margin: 270px auto;
+    display: block;
+    text-align: center;
+  }
+
+  .div-projetos{ 
+    height: auto; 
+}
+.div-Habilidades{
+    width: 100%;
+    height: 190vh;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+.Text-Projetos-1 .Text-Projetos-2 {
+   font-size: 12vw;
+    margin-left: 160px; 
+    text-align: center; 
+}
+  .css { 
+    width: 80%; 
+    margin: 20px 10%; 
+}
+  .quadrado{ 
+    flex-direction: column; 
+    align-items: center; 
+}
+  .foto{ 
+    margin-left: 0; 
+}
+  .foto img{ 
+    width: 70vw; 
+    height: 70vw; 
+    margin: 40px 0 0 0; 
+}
+
+  .text-biografia{
+    width: 90%;
+    margin-left: 20px; 
+    }
+  .text-biografia-title {
+    font-size: 12vw;
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+  .text-biografia p{
+    font-size: 5vw; 
+    margin: 40px 0 0 0; 
+    text-align: center; 
+}
+   .text-biografia i{ 
+    margin: 40px auto 0 auto; 
+    display: block; 
+    text-align: center; }
+}
+
+@media (max-width: 468px) {
+  .Text-Comeco{
+    font-size: 14vw; 
+    margin-left:16%;
+}
+  .Text-2{ 
+    font-size: 5.5vw; 
+}
+  .Botao-baixo,.Botao-baixo-Projetos,.Botao-baixo-Habilidades {
+    font-size: 8vw;
+    margin: 270px auto;
+    display: block;
+    text-align: center;
+  }
+
+  .div-projetos{ 
+    height: auto; 
+}
+.div-Habilidades{
+    width: 100%;
+    height: 190vh;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+.Text-Projetos-1,.Text-Projetos-2 {
+   font-size: 12vw;
+    margin-left: 160px; 
+    text-align: center; 
+}
+  .css { 
+    width: 80%; 
+    margin: 20px 10%; 
+}
+  .quadrado{ 
+    flex-direction: column; 
+    align-items: center; 
+}
+  .foto{ 
+    margin-left: 0; 
+}
+  .foto img{ 
+    width: 70vw; 
+    height: 70vw; 
+    margin: 40px 0 0 0; 
+}
+
+  .text-biografia{
+    width: 90%;
+    margin-left: 20px; 
+    }
+  .text-biografia-title {
+    font-size: 12vw;
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+  .text-biografia p{
+    font-size: 5vw; 
+    margin: 40px 0 0 0; 
+    text-align: center; 
+}
+   .text-biografia i{ 
+    margin: 40px auto 0 auto; 
+    display: block; 
+    text-align: center; }
+}
